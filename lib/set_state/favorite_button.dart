@@ -34,7 +34,7 @@ class _FavoriteButtonState extends State<FavoriteButton> {
             ),
             Text(
                 isFavorite ? "Add Favorite" : "No Favorite",
-              style: TextStyle(fontSize: 40),
+              style: const TextStyle(fontSize: 40),
             ),
           ],
         ),

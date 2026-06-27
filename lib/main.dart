@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_getx_tutorial/set_state/favorite_button.dart';
 import 'package:flutter_getx_tutorial/set_state/minus_button.dart';
+import 'package:flutter_getx_tutorial/set_state/password_hide_show.dart';
 import 'package:flutter_getx_tutorial/set_state/rest_button_example.dart';
 import 'package:flutter_getx_tutorial/set_state/set_state_example_1.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
 
-      home: const FavoriteButton(),
+      home: const PasswordHideShow(),
 
     );
   }
