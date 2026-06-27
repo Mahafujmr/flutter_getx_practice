@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_getx_tutorial/statefull_widget.dart';
+import 'package:flutter_getx_tutorial/set_state/set_state_example_1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
 
-      home: const StatefullWidget(),
+      home: const SetStateExample1(),
     );
   }
 }
